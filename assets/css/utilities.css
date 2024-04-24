@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+
+:root{
+    --main-color: #CCFE06;
+    --second-color: #0E0E0E;
+    --third-color: #F7F7F7;
+    --font:'Catamaran', sans-serif;
+}
