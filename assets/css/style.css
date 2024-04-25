@@ -37,7 +37,7 @@ img{
     background-color: var(--second-color);
 }
 
-img{
+.navbar > img{
     width: 180px;
     height: auto;
 }
@@ -72,4 +72,110 @@ img{
 }
 .navbar ul li.lime {
     margin-left: 70px;
+}
+
+/* .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 16px;
+} */
+
+/* .card{
+    background-color: var(--second-color);
+    width: 180px;
+    height: 260px;
+    border-radius: 12px var(--main-color);
+    position: relative;
+}
+.card img{
+    background-color: var(--second-color);
+    height: 130px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.card .icon{
+    width: 10px;
+    height: auto;
+    padding: 19px;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.card div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    height: 50%;
+}
+
+.card h1{
+    font-size: 1.2rem;
+    color: var(--main-color)
+}
+
+.card p{
+    font-size: .9rem;
+    color: var(--third-color);
+} */
+
+section{
+    padding: 10px;
+	margin: 10px;
+}
+.card {
+	background-color: var(--second-color);
+    color: var(--third-color);
+	border-radius: 12px;
+    /* border: 10px solid var(--main-color); */
+    outline: 8px solid var(--main-color);
+	/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+	/* padding: 20px;
+	margin: 20px; */
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+    font-family: var(--font);
+}
+
+.card h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+    color: var(--main-color);
+    padding: 5px;
+	margin: 5px;
+}
+
+.card p {
+	font-size: 18px;
+	line-height: 1.5;
+	/* margin-bottom: 20px; */
+    text-align: justify;
+    padding: 5px;
+	margin: 5px;
+}
+
+.card img {
+	width: 100%;
+	height: auto;
+	/* margin-bottom: -20px; */
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    /* padding: 0px;
+	margin: 0px; */
+}
+.card .icon img{
+    width: 35px;
+    height: auto;
+}
+.card .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
