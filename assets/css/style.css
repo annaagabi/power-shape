@@ -55,7 +55,7 @@ img{
     color: var(--third-color);
     font-size: 17px;
     font-weight: bold;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 .navbar a.active {
     color: var(--main-color);
