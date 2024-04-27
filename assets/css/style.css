@@ -55,7 +55,7 @@ img{
     color: var(--third-color);
     font-size: 17px;
     font-weight: bold;
-    /* text-transform: uppercase; */
+    
 }
 .navbar a.active {
     color: var(--main-color);
@@ -66,6 +66,7 @@ img{
     color: var(--second-color);
     padding: 10px 20px;
     border-radius: 10px;
+    text-transform: uppercase;
     
 }
 .navbar ul li.lime a {
