@@ -55,7 +55,7 @@ img{
     color: var(--third-color);
     font-size: 17px;
     font-weight: bold;
-    /* text-transform: uppercase; */
+    
 }
 .navbar a.active {
     color: var(--main-color);
@@ -66,7 +66,7 @@ img{
     color: var(--second-color);
     padding: 10px 20px;
     border-radius: 10px;
-    
+    text-transform: uppercase;
 }
 .navbar ul li.lime a {
     color: var(--second-color);
@@ -77,3 +77,26 @@ img{
     margin-left: 70px;
 }
 
+.principal{
+    color: rgba(247, 247, 247, 0.75);
+    background-color: var(--second-color);
+    text-transform: uppercase;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+.principal span{
+    color: rgba(204, 254, 6, 0.90);
+}
+.principal p{
+    /* word-wrap: break-word; */
+    word-break: normal;
+}
+
+.card-homem{
+    background-color: var(--main-color);
+    border-radius: 12px;
+}
+.card-homem img{
+    width: 400px;
+}
