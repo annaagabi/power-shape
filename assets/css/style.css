@@ -81,6 +81,7 @@ img{
 
 /* MAIN */
 
+/* PARTE COM A IMAGM DO HOMEM */
 .principal{
     color: rgba(247, 247, 247, 0.75);
     background-color: var(--second-color);
@@ -117,12 +118,83 @@ img{
     /* position: absolute; */
 }
 .card-homem img{
-    width: 600px;
+    width: 661px;
     position:relative;
 	left:5%;
 	top: 70%;
     padding: 0px 15px;  
-     vertical-align: middle;
+    vertical-align: middle;
     /* place-items: end; */
     /* position: absolute; */
 }
+
+/* PARTE COM A IMAGEM DA MULHER */
+
+.section-2{
+    background-color: var(--third-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 15px; */
+}
+
+.card-mulher img {
+    width: 820px;
+    /* position: absolute; */
+    position: relative;
+    /* margin: 15px; */
+    /* display: inline-flex; */
+}
+
+.card-mulher .test{
+    width: 550px;
+    height: 730px;
+    border-radius: 10px;
+    border: 6px solid var(--main-color);
+    margin: 15px;
+    /* position: relative; */
+    position: absolute;
+    
+	top: 1118px;
+    padding: 0px 15px;  
+    vertical-align: middle;
+    
+}
+
+.sobre-nos .line {
+    width: 600px;
+    border: 2px solid var(--second-color);
+   
+    /* height: 2px;
+    background-color: black; */
+}
+
+.sobre-nos{
+    padding: 45px;
+}
+
+.sobre-nos h1{
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.sobre-nos h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: justify;
+}
+.sobre-nos p{
+    font-size: 24px;
+    text-align: justify;
+}
+.sobre-nos button{
+    background-color: var(--main-color);
+    border-radius: 10px;
+    border: none;
+    font-size: 24px;
+    width: 200px;
+    height: 50px;
+    /* right: 10%; */
+}
+
+
