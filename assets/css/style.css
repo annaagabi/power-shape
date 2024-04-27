@@ -81,7 +81,9 @@ img{
 
 /* MAIN */
 
-/* PARTE COM A IMAGM DO HOMEM */
+
+
+/* PARTE COM A IMAGEM DO HOMEM */
 .principal{
     color: rgba(247, 247, 247, 0.75);
     background-color: var(--second-color);
@@ -90,6 +92,8 @@ img{
     display: flex;
     justify-content: space-evenly;
     place-items: center;
+    margin-top: 0;
+    /* height: 500px; */
     /* text-align: center; */
     /* vertical-align: baseline; */
     /* position: relative; */
@@ -113,19 +117,24 @@ img{
     border-radius: 20px;
     padding: 0px 15px;
     position: relative;
+    top: 200px;
     /* display: flex;
     justify-content: center; */
     /* position: absolute; */
 }
 .card-homem img{
     width: 661px;
-    position:relative;
+    position: relative;
 	left:5%;
 	top: 70%;
     padding: 0px 15px;  
     vertical-align: middle;
     /* place-items: end; */
     /* position: absolute; */
+}
+
+.section-1{
+    position: relative;
 }
 
 /* PARTE COM A IMAGEM DA MULHER */
@@ -135,7 +144,12 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+    /* position: absolute; */
     /* margin: 15px; */
+}
+.card-mulher{
+    padding: 0;
+    margin: 0;
 }
 
 .card-mulher img {
@@ -147,30 +161,28 @@ img{
 }
 
 .card-mulher .test{
-    width: 550px;
-    height: 730px;
+    width: 700px;
+    height: 849px;
     border-radius: 10px;
     border: 6px solid var(--main-color);
-    margin: 15px;
+    margin: 45px;
     /* position: relative; */
     position: absolute;
-    
-	top: 1118px;
+	top: 1115px;
     padding: 0px 15px;  
     vertical-align: middle;
-    
 }
 
 .sobre-nos .line {
     width: 600px;
     border: 2px solid var(--second-color);
-   
     /* height: 2px;
     background-color: black; */
 }
 
 .sobre-nos{
     padding: 45px;
+    margin-top: 200px;
 }
 
 .sobre-nos h1{
@@ -194,7 +206,7 @@ img{
     font-size: 24px;
     width: 200px;
     height: 50px;
+    justify-content: flex-end;
+    /* align-items:; */
     /* right: 10%; */
 }
-
-
