@@ -75,7 +75,7 @@ main {
     background-color: var(--second-color);
     display: flex;
     font-size: 35px;
-    height: 80vh;
+    height: 85vh;
     margin-top: 0;
     justify-content: space-evenly;
     place-items: center;
@@ -99,7 +99,7 @@ main {
     overflow: hidden;
     padding: 0px 15px;
     position: relative;
-    top: 100px;
+    top: 70px;
     z-index: 9;
 }
 
@@ -124,21 +124,22 @@ main {
 
 .card-mulher img {
     /* width: 650px; */
-    width: 51vw;
+    width: 49vw;
     position: relative;
+    top: -690px;
 }
 
 .card-mulher .green-border{
     width: 40vw;
     /* width: 540px; */
-    height: 118vh;
+    height: 115vh;
     /* height: 705px; */
     border-radius: 10px;
     border: 6px solid var(--main-color);
     margin-left: 45px;
     padding: 0px 15px; 
-    position: absolute;
-	top: 820px; 
+    position: relative;
+	top: 150px; 
     vertical-align: middle;
 }
 
@@ -149,21 +150,23 @@ main {
 
 .sobre-nos{
     padding: 45px;
-    margin-top: 200px;
+    /* margin-top: 200px; */
     overflow: hidden;
     display: flex;
     flex-direction: column;
     font-size: 24px;
     text-align: justify;
+    position: relative;
+    top: -250px;
 }
 
 .sobre-nos h1{
-    font-size: 48px;
+    font-size: 43px;
     text-transform: uppercase;
     text-align: center;
 }
 .sobre-nos h2{
-    font-size: 40px;
+    font-size: 35px;
     text-transform: uppercase;
 }
 
@@ -175,7 +178,7 @@ main {
     border-radius: 10px;
     border: none;
     font-size: 24px;
-    width: 200px;
-    height: 50px;
-    margin-left: 310px;
+    width: 180px;
+    height: 40px;
+    margin-left: 350px;
 }
