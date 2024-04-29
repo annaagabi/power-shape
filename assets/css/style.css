@@ -1,27 +1,5 @@
 @import "utilities.css";
 
-/* *{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-} */
-/* body{
-    font-family: var(--font);
-}
-
-nav{
-    background: var(--second-color);
-    height: 80px;
-    width:100%;
-}
-img{
-    padding: 0 100px;
-    width: 50px;
-    height: auto;
-} */
-
 *{
     margin: 0;
     padding: 0;
@@ -34,8 +12,7 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.4rem 5rem;
-    /* padding: 25px 90px; */
+    padding: 1.4rem 2rem;
     background-color: var(--second-color);
 }
 
@@ -72,44 +49,37 @@ img{
 }
 .navbar ul li.lime a {
     color: var(--second-color);
-    font-size: 24px;
+    font-size: 20px;
     /* font-weight: 900; */
 }
 .navbar ul li.lime {
-    margin-left: 70px;
+    margin-left: 90px;
 }
 
 /* MAIN */
-
-
 
 /* PARTE COM A IMAGEM DO HOMEM */
 .principal{
     color: rgba(247, 247, 247, 0.75);
     background-color: var(--second-color);
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 35px;
     display: flex;
     justify-content: space-evenly;
     place-items: center;
     margin-top: 0;
-    /* height: 500px; */
-    /* text-align: center; */
-    /* vertical-align: baseline; */
-    /* position: relative; */
+    height: 80vh;
 }
 .principal span{
     color: rgba(204, 254, 6, 0.90);
 }
 .texto p{
-    word-wrap: break-word;
+    position: relative;
     font-weight: 900;
 }
 .texto{
     padding: 15px;
     margin: 15px;
-    /* vertical-align: middle; */
-    /* align-items: first baseline; */
 }
 
 .card-homem{
@@ -117,35 +87,29 @@ img{
     border-radius: 20px;
     padding: 0px 15px;
     position: relative;
-    top: 200px;
-    /* display: flex;
-    justify-content: center; */
-    /* position: absolute; */
+    top: 100px;
+    overflow: hidden;
+    z-index: 9;
 }
 .card-homem img{
-    width: 661px;
+    width: 561px;
+    height: auto;
     position: relative;
 	left:5%;
 	top: 70%;
-    padding: 0px 15px;  
     vertical-align: middle;
-    /* place-items: end; */
-    /* position: absolute; */
 }
 
 .section-1{
     position: relative;
 }
 
-/* PARTE COM A IMAGEM DA MULHER */
-
 .section-2{
     background-color: var(--third-color);
     display: flex;
     justify-content: center;
     align-items: center;
-    /* position: absolute; */
-    /* margin: 15px; */
+    overflow: hidden;
 }
 .card-mulher{
     padding: 0;
@@ -153,37 +117,33 @@ img{
 }
 
 .card-mulher img {
-    padding-top: 50px;
-    width: 820px;
-    /* position: absolute; */
+    width: 650px;
     position: relative;
-    /* margin: 15px; */
-    /* display: inline-flex; */
 }
 
 .card-mulher .test{
-    width: 700px;
-    height: 849px;
+    width: 540px;
+    height: 705px;
     border-radius: 10px;
     border: 6px solid var(--main-color);
-    margin: 45px;
-    /* position: relative; */
+    margin-left: 45px;
     position: absolute;
-	top: 1165px;
+	top: 810px;
     padding: 0px 15px;  
     vertical-align: middle;
 }
 
 .sobre-nos .line {
-    width: 600px;
+    width: 430px;
     border: 2px solid var(--second-color);
-    /* height: 2px;
-    background-color: black; */
 }
 
 .sobre-nos{
     padding: 45px;
     margin-top: 200px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 .sobre-nos h1{
@@ -200,15 +160,16 @@ img{
     font-size: 24px;
     text-align: justify;
 }
-.sobre-nos button{
+
+.sobre-nos .btn{
+    display: flex;
+}
+.sobre-nos .btn button{
     background-color: var(--main-color);
     border-radius: 10px;
     border: none;
     font-size: 24px;
     width: 200px;
     height: 50px;
-    margin-left: 400px;
-    /* justify-content: flex-end; */
-    /* align-items:; */
-    /* right: 10%; */
+    margin-left: 310px;
 }
