@@ -6,91 +6,103 @@
     font-family: var(--font);
 }
 
-
+main {
+    /* display: flex;
+    justify-content: space-between; */
+    width: 100%;
+    height: 100%;
+    /* margin-top: 77px; */
+}
 /* HEADER */
 .navbar{
+    align-items: center;
+    background-color: var(--second-color);
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 1.4rem 2rem;
-    background-color: var(--second-color);
 }
 
 .logo img{
-    width: 180px;
     height: auto;
+    width: 180px;
 }
+
+.navbar a{
+    color: var(--third-color);
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 .navbar ul {
-    display: flex;
     align-items: center;
+    display: flex;
     list-style: none;
+}
+
+.navbar ul a.active {
+    color: var(--main-color);
+   
 }
 .navbar ul li{
     margin: 0 15px;
 }
 
-.navbar ul a{
-    text-decoration: none;
-    color: var(--third-color);
-    font-size: 24px;
-    font-weight: bold;
-    
+.navbar ul li.lime {
+    margin-left: 90px;
 }
-.navbar a.active {
-    color: var(--main-color);
-   
-}
-.lime{
-    background-color: var(--main-color);
-    color: var(--second-color);
-    padding: 10px 20px;
-    border-radius: 10px;
-    text-transform: uppercase;
-}
+
 .navbar ul li.lime a {
     color: var(--second-color);
     font-size: 20px;
-    /* font-weight: 900; */
 }
-.navbar ul li.lime {
-    margin-left: 90px;
+
+.lime{
+    background-color: var(--main-color);
+    border-radius: 10px;
+    color: var(--second-color);
+    padding: 10px 20px;
+    text-transform: uppercase;
 }
 
 /* MAIN */
 
 /* PARTE COM A IMAGEM DO HOMEM */
+.section-1{
+    position: relative;
+}
 .principal{
-    color: rgba(247, 247, 247, 0.75);
     background-color: var(--second-color);
-    text-transform: uppercase;
-    font-size: 35px;
     display: flex;
+    font-size: 35px;
+    height: 80vh;
+    margin-top: 0;
     justify-content: space-evenly;
     place-items: center;
-    margin-top: 0;
-    height: 80vh;
-}
-.principal span{
-    color: rgba(204, 254, 6, 0.90);
-}
-.texto p{
-    position: relative;
-    font-weight: 900;
+    text-transform: uppercase;
 }
 .texto{
-    padding: 15px;
+    color: rgba(247, 247, 247, 0.75);
+    font-weight: 900;
     margin: 15px;
+    padding: 15px;
+    position: relative;
 }
 
-.card-homem{
+.texto p span{
+    color: rgba(204, 254, 6, 0.90);
+}
+
+.card-homem {
     background-color: var(--main-color);
     border-radius: 20px;
+    overflow: hidden;
     padding: 0px 15px;
     position: relative;
     top: 100px;
-    overflow: hidden;
     z-index: 9;
 }
+
 .card-homem img{
     width: 561px;
     height: auto;
@@ -100,20 +112,12 @@
     vertical-align: middle;
 }
 
-.section-1{
-    position: relative;
-}
-
 .section-2{
+    align-items: center;
     background-color: var(--third-color);
     display: flex;
     justify-content: center;
-    align-items: center;
     overflow: hidden;
-}
-.card-mulher{
-    padding: 0;
-    margin: 0;
 }
 
 .card-mulher img {
@@ -121,21 +125,21 @@
     position: relative;
 }
 
-.card-mulher .test{
+.card-mulher .green-border{
     width: 540px;
     height: 705px;
     border-radius: 10px;
     border: 6px solid var(--main-color);
     margin-left: 45px;
+    padding: 0px 15px; 
     position: absolute;
-	top: 810px;
-    padding: 0px 15px;  
+	top: 820px; 
     vertical-align: middle;
 }
 
 .sobre-nos .line {
-    width: 430px;
     border: 2px solid var(--second-color);
+    width: 530px;
 }
 
 .sobre-nos{
@@ -144,6 +148,8 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    font-size: 24px;
+    text-align: justify;
 }
 
 .sobre-nos h1{
@@ -154,11 +160,6 @@
 .sobre-nos h2{
     font-size: 40px;
     text-transform: uppercase;
-    text-align: justify;
-}
-.sobre-nos p{
-    font-size: 24px;
-    text-align: justify;
 }
 
 .sobre-nos .btn{
