@@ -10,7 +10,7 @@ main {
     /* display: flex;
     justify-content: space-between; */
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     /* margin-top: 77px; */
 }
 /* HEADER */
@@ -104,7 +104,9 @@ main {
 }
 
 .card-homem img{
-    width: 561px;
+    /* width: 561px; */
+    width: 45vw;
+    /* width: 70%; */
     height: auto;
     position: relative;
 	left:5%;
@@ -121,13 +123,16 @@ main {
 }
 
 .card-mulher img {
-    width: 650px;
+    /* width: 650px; */
+    width: 51vw;
     position: relative;
 }
 
 .card-mulher .green-border{
-    width: 540px;
-    height: 705px;
+    width: 40vw;
+    /* width: 540px; */
+    height: 118vh;
+    /* height: 705px; */
     border-radius: 10px;
     border: 6px solid var(--main-color);
     margin-left: 45px;
