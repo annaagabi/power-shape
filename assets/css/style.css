@@ -75,7 +75,7 @@ main {
     background-color: var(--second-color);
     display: flex;
     font-size: 35px;
-    height: 85vh;
+    height: 65vh;
     margin-top: 0;
     justify-content: space-evenly;
     place-items: center;
@@ -120,26 +120,27 @@ main {
     display: flex;
     justify-content: center;
     overflow: hidden;
+    height: 160vh;
 }
 
 .card-mulher img {
     /* width: 650px; */
-    width: 49vw;
+    width: 50vw;
     position: relative;
-    top: -690px;
+    top: -590px;
 }
 
 .card-mulher .green-border{
     width: 40vw;
     /* width: 540px; */
-    height: 115vh;
+    height: 85vh;
     /* height: 705px; */
     border-radius: 10px;
     border: 6px solid var(--main-color);
     margin-left: 45px;
     padding: 0px 15px; 
     position: relative;
-	top: 150px; 
+	top: 315px; 
     vertical-align: middle;
 }
 
@@ -157,7 +158,7 @@ main {
     font-size: 24px;
     text-align: justify;
     position: relative;
-    top: -250px;
+    top: -150px;
 }
 
 .sobre-nos h1{
@@ -179,6 +180,6 @@ main {
     border: none;
     font-size: 24px;
     width: 180px;
-    height: 40px;
+    height: 50px;
     margin-left: 350px;
 }
