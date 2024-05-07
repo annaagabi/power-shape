@@ -4,7 +4,13 @@
     margin: 0;
     padding: 0;
     font-family: var(--font);
+    /* box-sizing: border-box */
 }
+
+/* body{
+    display: flex;
+    align-items: center;
+} */
 
 main {
     /* display: flex;
@@ -76,7 +82,6 @@ main {
     display: flex;
     font-size: 35px;
     height: 65vh;
-    margin-top: 0;
     justify-content: space-evenly;
     place-items: center;
     text-transform: uppercase;
@@ -93,19 +98,21 @@ main {
     color: rgba(204, 254, 6, 0.90);
 }
 
+
 .card-homem {
     background-color: var(--main-color);
     border-radius: 20px;
     overflow: hidden;
     padding: 0px 15px;
     position: relative;
-    top: 70px;
+    top: 10vh;
     z-index: 9;
+    /* margin-top: 250px; */
 }
 
 .card-homem img{
-    /* width: 561px; */
-    width: 45vw;
+    width: 674px;
+    /* width: 45vw; */
     /* width: 70%; */
     height: auto;
     position: relative;
@@ -123,24 +130,26 @@ main {
     height: 160vh;
 }
 
+
+
 .card-mulher img {
-    /* width: 650px; */
-    width: 50vw;
+    width: 650px;
+    /* width: 50vw; */
     position: relative;
     top: -590px;
 }
 
 .card-mulher .green-border{
-    width: 40vw;
-    /* width: 540px; */
-    height: 85vh;
-    /* height: 705px; */
+    /* width: 40vw; */
+    width: 540px;
+    /* height: 85vh; */
+    height: 705px;
     border-radius: 10px;
     border: 6px solid var(--main-color);
     margin-left: 45px;
     padding: 0px 15px; 
     position: relative;
-	top: 315px; 
+	top: 515px; 
     vertical-align: middle;
 }
 
