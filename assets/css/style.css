@@ -22,13 +22,13 @@ img{
     height: auto;
 } */
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: var(--font);
 }
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,42 +37,121 @@ img{
     background-color: var(--second-color);
 }
 
-img{
+.logo img {
     width: 180px;
     height: auto;
 }
+
 .navbar ul {
     display: flex;
     align-items: center;
     list-style: none;
 }
-.navbar ul li{
+
+.navbar ul li {
     margin: 0 15px;
 }
 
-.navbar ul a{
+.navbar ul a {
     text-decoration: none;
     color: var(--third-color);
     font-size: 17px;
     font-weight: bold;
     /* text-transform: uppercase; */
 }
+
 .navbar a.active {
     color: var(--main-color);
-   
+
 }
-.lime{
+
+.lime {
     background-color: var(--main-color);
     color: var(--second-color);
     padding: 10px 20px;
     border-radius: 10px;
-    
+
 }
+
 .navbar ul li.lime a {
     color: var(--second-color);
     font-size: 15px;
     /* font-weight: 900; */
 }
+
 .navbar ul li.lime {
     margin-left: 70px;
 }
+
+
+footer{
+    display: flex;
+    background-color: var(--main-color);
+    justify-content: space-around;
+}
+
+.container{
+    margin-top: 40px;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+    column-count: 3;
+    column-gap: 120px;
+}
+
+.column{
+    margin-bottom: 35px;
+	font-weight: 500;
+    
+}
+.column h3{
+    /* margin-bottom: 15px; */
+    padding-top: 60px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+.column p{
+    font-size: 24px;
+}
+
+.imagem{
+    display: inline-block;
+	/* line-height: 40px; */
+    
+}
+
+/* footer {
+    display: flex;
+    flex-flow: row wrap;
+    flex-flow: column wrap;
+    background-color: var(--main-color);
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.logo-footer img{
+    width: 200px;
+}
+
+.column{
+    column-count: 3;
+    box-sizing: border-box;
+    column-gap: 90px;
+}
+
+.column h3{
+    text-transform: uppercase;
+}
+
+#imagem{
+    width: 10px;
+} */
+
+/* .end {
+    background-color: var(--second-color);
+    color: var(--third-color)
+} */
