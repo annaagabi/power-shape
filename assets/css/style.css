@@ -85,29 +85,46 @@ img{
 
 
 footer{
-    display: flex;
     background-color: var(--main-color);
-    justify-content: space-around;
+    /* position: fixed; */
+    /* bottom: 0; */
+    /* text-align: center; */
+    /* align-items: center;  */
+    /* justify-content: center; */
+    /* box-sizing: border-box; */
+}
+.logo-footer{
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px;
+    padding-bottom: 40px;
+    padding-top: 70px;
 }
 
 .container{
-    margin-top: 40px;
+    display: flex;
+    /* margin-top: 10px; */
+    flex-direction: column; /* Alterado para uma direção de coluna */
+    align-items: center; 
+    /* justify-content: space-around; */
+    padding-bottom: 20px;
 }
 .row{
 	display: flex;
 	flex-wrap: wrap;
-    column-count: 3;
-    column-gap: 120px;
+    /* column-count: 3; */
+    column-gap: 120px; 
 }
 
 .column{
-    margin-bottom: 35px;
+    /* margin-bottom: 35px; */
 	font-weight: 500;
     
 }
 .column h3{
     /* margin-bottom: 15px; */
-    padding-top: 60px;
+    padding-top: 20px;
     padding-bottom: 20px;
     text-transform: uppercase;
     font-size: 32px;
@@ -117,11 +134,20 @@ footer{
     font-size: 24px;
 }
 
-.imagem{
-    display: inline-block;
+/* .imagem{
+    display: inline-block; */
 	/* line-height: 40px; */
     
+/* } */
+
+.imagem {
+    display: flex; /* Alterado para flex para usar margens */
 }
+
+.imagem img {
+    margin: 0 25px; /* Adiciona margem entre as imagens */
+}
+
 
 /* footer {
     display: flex;
@@ -151,7 +177,48 @@ footer{
     width: 10px;
 } */
 
-/* .end {
+.end {
     background-color: var(--second-color);
-    color: var(--third-color)
-} */
+    color: var(--third-color);
+    /* display: inline-block; */
+    width: 100%;
+    display: flex;
+    padding: 15px 0;
+    justify-content: space-between; /* Adicionado */
+    /* align-items: center; */
+
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: nowrap; */
+}
+
+.end span{
+    color: var(--main-color);
+}
+
+.end-nome{
+    display: flex;
+    /* justify-content: center; */
+    gap: 30px;
+    padding-left: 65px;
+}
+
+.end-bolinha{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10px;
+    padding-right: 65px;
+}
+
+.marker-green{
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    background-color: var(--main-color);
+    
+}
+
