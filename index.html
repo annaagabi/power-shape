@@ -10,6 +10,7 @@
     <link rel="shortcut icon" href="assets/img/Simbolo-logo.png" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Power Shape</title>
+
 </head>
 
 <body>
@@ -20,60 +21,176 @@
                 <img src="assets/img/logo.svg" alt="logo">
             </div>
 
-            <ul>
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Aulas</a></li>
-                <li><a href="#">Contato</a></li>
-                <li class="lime"><a href="#">Experimente</a></li>
-            </ul>
+            <div class="opcoes">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Aulas</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <!-- <li class="lime"><a href="#">Experimente</a></li> -->
+                </ul>
+                <div class="lime">
+                    <button type="button">Experimente</button>
+                </div> <!-- lime    -->
+            </div> <!-- opcoes -->
         </nav>
-
     </header>
+
     <main>
-        <section class="section-1">
-            <div class="principal">
+        <div class="container">
+            <section class="section-1">
+                <div class="principal">
 
-                <div class="texto">
-                    <p>+ do que <span>perder</span> peso</p>
-                    <p>é <span>conquistar</span></p>
-                    <p><span>qualidade</span> de vida</p>
-                </div> <!-- texto -->
+                    <div class="texto">
+                        <p>+ do que <span>perder</span> peso</p>
+                        <p>é <span>conquistar</span></p>
+                        <p><span>qualidade</span> de vida</p>
+                    </div> <!-- texto -->
 
-                <div class="card-homem">
-                    <img src="./assets/img/homem.svg" alt="homem">
-                </div> <!-- card-homem -->
-            </div> <!-- principal -->
-        </section> <!-- section-1 -->
+                    <div class="card-homem">
+                        <img src="./assets/img/homem.svg" alt="homem">
+                    </div> <!-- card-homem -->
+                </div> <!-- principal -->
+            </section> <!-- section-1 -->
 
-        <section class="section-2">
-            <div class="card-mulher">
-                <div class="green-border"></div>
-                <!-- <img src="./assets/img/mulher.svg" alt="mulher"> -->
-                <!-- <img src="./assets/img/teste.svg" alt="mulher"> -->
-                <img src="./assets/img/mulher.svg" alt="mulher">
-            </div> <!-- card-mulher -->
+            <section class="section-2">
+                <div class="card-mulher">
+                    <div class="card-line"></div>
+                    <!-- <img src="./assets/img/mulher.svg" alt="mulher"> -->
+                    <!-- <img src="./assets/img/teste.svg" alt="mulher"> -->
+                    <img src="./assets/img/mulher.svg" alt="mulher">
+                </div> <!-- card-mulher -->
 
-            <div class="sobre-nos">
-                <h1>Sobre Nós</h1>
-                <div class="line"></div> <br>
+                <div class="sobre-nos">
+                    <h1>Sobre Nós</h1>
+                    <div class="line"></div> <br>
 
-                <h2>A única limitação</h2>
-                <h2>é a que você coloca</h2>
+                    <h2>A única limitação</h2>
+                    <h2>é a que você coloca</h2>
 
-                <p>Bem-vindo à sua jornada de transformação!</p>
-                <p> Somos dedicados a ajudar você a alcançar seus objetivos de fitness e bem-estar com um plano
-                    personalizado que atende às suas necessidades individuais. Com anos de experiência e uma paixão por
-                    ver nossos clientes prosperarem, oferecemos treinamento personalizado, suporte motivacional e
-                    orientação profissional a cada passo do caminho.</p>
-                <p>Junte-se a nós e sinta a diferença de ter um treinador comprometido com o seu sucesso!</p>
+                    <p>Bem-vindo à sua jornada de transformação!</p>
+                    <p> Somos dedicados a ajudar você a alcançar seus objetivos de fitness e bem-estar com um plano
+                        personalizado que atende às suas necessidades individuais. Com anos de experiência e uma paixão
+                        por ver nossos clientes prosperarem, oferecemos treinamento personalizado, suporte motivacional
+                        e orientação profissional a cada passo do caminho.</p>
+                    <p>Junte-se a nós e sinta a diferença de ter um treinador comprometido com o seu sucesso!</p>
 
-                <div class="btn">
-                    <button type="button">Saiba Mais</button>
+                    <div class="btn">
+                        <button type="button">Saiba Mais</button>
+                    </div>
+                </div> <!-- sobre-nos -->
+            </section> <!-- section-2 -->
+        </div> <!-- container -->
+
+        <!-- AULAS -->
+        <section class="section-3">
+            <div class="aulas">
+                <h1>Nossas Aulas</h1>
+                <p>Temos como missão ajudar todos os nossos alunos a atingir os seus resultados, seja com qual
+                    modalidade escolher</p>
+            </div>
+
+            <div class="cards">
+                <!-- Card Jump -->
+                <div class="card">
+                    <img src="./assets/img/img-jump.svg" alt="img-jump">
+                    <div>
+                        <div class="icon">
+                            <img src="./assets/img/icon-jump.svg" alt="icone-jump">
+                            <h2>Power Jump</h2>
+                        </div>
+
+                        <p>Por meio de coreografias simples e movimentos sincornizados proporciona um trabalho cardio,
+                            de equilíbrio e diversão</p>
+                    </div>
                 </div>
-            </div> <!-- sobre-nos -->
-        </section> <!-- section-2 -->
+
+                <!-- Card Pump -->
+                <div class="card">
+                    <img src="./assets/img/img-pump.svg" alt="img-pump">
+                    <div>
+                        <div class="icon">
+                            <img src="./assets/img/icon-pump.svg" alt="icone-pump">
+                            <h2>Body Pump</h2>
+                        </div>
+
+                        <p>Usando pesos leves e moderados com muita repetição, o BODYPUMP proporciona um treino completo
+                            para o seu corpo</p>
+                    </div>
+                </div>
+
+                <!-- Card Zumba -->
+                <div class="card">
+                    <img src="./assets/img/img-danca.svg" alt="img-zumba">
+                    <div>
+                        <div class="icon">
+                            <img src="./assets/img/icon-zumba.svg" alt="icone-zumba">
+                            <h2>Zumba</h2>
+                        </div>
+
+                        <p>Além de ser dinâmica e divertida, a Zumba promove a melhora do condicionamento físico através
+                            da dança</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <footer>
+
+        <div class="logo-footer">
+            <img src="./assets/img/logo-footer.svg" alt="logo-footer">
+        </div> <!-- logo-footer -->
+        <div class="container-footer">
+            <div class="row">
+                <div class="column">
+                    <h3>São Paulo</h3>
+                    <p>Rua Qualquer, 123</p>
+                    <P>Cidade Qualquer, SP</P>
+                    <br>
+
+                    <p>(11) 1234-5678</p>
+                    <p>alo@powershape.com.br</p>
+                    <p>@powershape</p>
+                </div> <!-- column -->
+                <div class="column">
+                    <h3>Funcionamento</h3>
+                    <p>Segunda a Sexta</p>
+                    <P>6h às 22h</P>
+                    <br>
+
+                    <p>Sábado e Domingo</p>
+                    <p>8h às 14h</p>
+                    <br>
+
+                    <p>Fechado nos feriados</p>
+                </div> <!-- column -->
+                <div class="column">
+                    <h3>Fique conectado</h3>
+                    <div class="imagem">
+                        <img src="./assets/img/Facebook.svg" alt="facebook">
+                        <img src="./assets/img/Instagram.svg" alt="instagram">
+                        <img src="./assets/img/Youtube.svg" alt="youtube">
+                    </div> <!-- imagem -->
+
+                </div> <!-- column -->
+            </div> <!-- row -->
+        </div> <!-- container -->
+
+        <div class="end">
+            <div class="end-nome">
+                <p>2024 Power Shape. All Rights Reserved By <span>Alexsandra Campos & Anna Gabriela</span></p>
+            </div> <!-- end-nome -->
+
+            <div class="end-bolinha">
+                <div class="marker-green"></div>
+                <p>Privacy Police</p>
+                <div class="marker-green"></div>
+                <p>Terms & Condition</p>
+            </div><!-- end-bolinha -->
+        </div> <!-- end -->
+    </footer>
+
 
 </body>
 
